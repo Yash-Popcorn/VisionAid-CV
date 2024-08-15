@@ -6,13 +6,13 @@ from openai import OpenAI
 from groq import Groq
 import resend
 ## ENVIRONMENT
-os.environ['OPENAI_API_KEY'] = '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'
-YOUR_API_KEY = "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"
+os.environ['OPENAI_API_KEY'] = ''
+YOUR_API_KEY = ""
 groqClient = Groq(
-    api_key="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",
+    api_key="",
 )
-perplexityClient = OpenAI(api_key="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", base_url="https://api.perplexity.ai")
-resend.api_key = "re_EGudJtAD_DjBw9YNiho2dxAwVYAsZ3LsE"
+perplexityClient = OpenAI(api_key="", base_url="https://api.perplexity.ai")
+resend.api_key = ""
 
 
 ## NOTE DOCS
